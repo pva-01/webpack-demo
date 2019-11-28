@@ -1,0 +1,1 @@
+var srvc = new DemograficMarkTool.ServicesApi();
