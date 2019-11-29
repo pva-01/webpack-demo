@@ -189,7 +189,7 @@
     /**
      * Label author
      * Label author
-     * @param {String} authorId Author id
+     * @param {Number} authorId Author id
      * @param {String} userId user, who labels data
      * @param {String} label Label name
      * @param {module:api/AuthorsApi~labelAuthorCallback} callback The callback function, accepting three arguments: error, data, response

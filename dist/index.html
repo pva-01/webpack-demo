@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cashe">
+    <meta http-equiv="express" content="Tue.01 Jan 2018 02:00:00 6MT">
+    <title>Form</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <form id="sources_form" method="post" enctype="text/plain" action="#">
+            <select id="sources" required>
+                <option disabled selected>Source</option>
+            </select>
+            <input id="id_name" type="text" placeholder="Enter ID" maxlength="30" required>
+        </form>
+    </div>
+    <article class="main_context">
+        <section class="authors">
+            <ul id="authors_names">
+                <!--
+                                    <li>
+                                        <div class="imgWrapper">
+                                            &lt;!&ndash;<img src="" alt="No picture">&ndash;&gt;
+                                            <img src="https://klike.net/uploads/posts/2019-03/1551511823_2.jpg" alt="No picture">
+                                        </div>
+                                        <div class="authorInfoWrapper">
+                                            <div class="name">Name</div>
+                                            <div class="nickname">Nickname</div>
+                                            <div class="label">Label</div>
+                                        </div>
+                                    </li>
+                -->
+            </ul>
+        </section>
+        <section class="authors_context">
+            <ul id="authors_texts">
+            </ul>
+        </section>
+    </article>
+    <div class="footer">
+        <form id="gender_form" method="post" enctype="text/plain" action="#">
+            <select id="gender" required>
+                <option disabled selected>Gender</option>
+<!--
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Unknown">Unknown</option>
+-->
+            </select>
+            <button id="submit" type="button">Save</button>
+            <!--<input id="submit" type="submit" value="OK">-->
+        </form>
+    </div>
+</div>
+
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="module" src="bundle.js"></script>
+</body>
+</html>
